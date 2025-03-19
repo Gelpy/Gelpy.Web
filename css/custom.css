@@ -458,11 +458,49 @@ html, body{
 	overflow: hidden;
 }
 /*--------------RESPONSIVE--------------*/
+/*Escritorio*/
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .cir-vct-1{
+ 		top: 5px;
+  	left: 40px;
+	}
+}
+@media (min-width: 740px) and (max-width: 1024px)  {
+  .cir-vct-1{
+  	top: 115px;
+    left: -40px;
+  }
+}
 /* Small devices (landscape phones, 576px and up)*/
 @media (max-width: 575.98px) {
+	.navGlp{
+		padding: 20px;
+	}
+	.navGlp .navbar-brand{
+		width: 80%;
+	}
+	.navGlp .collapse{
+		margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid rgb(204, 204, 204);
+	}
 	.sctContent{
 		padding: 2rem 2rem;
+		
 	}
+
+	#profesionales .p-5 {
+		padding-left: 1rem !important; 
+		padding-right: 1rem !important; 
+		padding-top: 1rem !important; 
+		padding-bottom: 0rem !important; 
+	}
+
+	#preguntas .p-5 {
+		padding-left: 0rem !important; 
+		padding-right: 0rem !important; 
+	}
+
 	.sldInitial{
 		padding-top: 70px;
 	}
@@ -488,18 +526,32 @@ html, body{
 	.sctNos:after{
 		width: 200px;
     height: 60px;
-    bottom: 30px;
-    right: -50px;
+    bottom: 60px;
+    right: 90px;
 	}
 	.cir-exter{
+		width: 100%;
 		margin-top: 3rem;
     margin-bottom: 3rem;
+    padding: 90px 0px;
+	}
+	.cir-vct-1 {
+    top: 125px;
+    left: -30px;
+	}
+	.cir-vct-2 {
+    top: -50px;
+    right: 120px;
+  }
+  .cir-vct-3 {
+    bottom: 110px;
+    right: -40px;
 	}
 	.sctStaff:before{
 		width: 260px;
     height: 70px;
-    top: -90px;
-    right: -100px;
+    top: -110px;
+    right: 30px;
 	}
 	.page-thumbnail{
 		margin-bottom: 1rem;

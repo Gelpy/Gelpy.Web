@@ -477,7 +477,7 @@ html, body{
 		padding: 20px;
 	}
 	.navGlp .navbar-brand{
-		width: 80%;
+		width: 70%;
 	}
 	.navGlp .collapse{
 		margin-top: 20px;
@@ -510,7 +510,7 @@ html, body{
 		right: -120px;
 	}
 	.sldInitial h1 {
-    font-size: 3em;
+    font-size: 2.5rem;
     text-align: center;
   }
 	.sldInitial h2 {
